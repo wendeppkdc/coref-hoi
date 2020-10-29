@@ -37,3 +37,4 @@ compile_language arabic
 
 python preprocess.py --input_dir $data_dir --output_dir $data_dir --seg_len 384
 python preprocess.py --input_dir $data_dir --output_dir $data_dir --seg_len 512
+python preprocess.py --input_dir $data_dir --output_dir $data_dir --seg_len 128
