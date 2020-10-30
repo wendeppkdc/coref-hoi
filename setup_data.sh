@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ontonotes_path=$1
-data_dir=$2
+ontonotes_path=/content/data/ontonotes-release-5.0
+data_dir=/content/data
 
 dlx() {
   wget -P $data_dir $1/$2
